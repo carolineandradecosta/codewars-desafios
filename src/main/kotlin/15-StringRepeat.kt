@@ -5,6 +5,8 @@
 //Examples (input -> output)
 //6, "I"     -> "IIIIII"
 //5, "Hello" -> "HelloHelloHelloHelloHello"
+
+
 fun main(){
     println(repeatStr(6, "Mel"))
 }
@@ -12,3 +14,5 @@ fun main(){
 fun repeatStr(r: Int, str: String): String{
     return str.repeat(r)
 }
+
+// MelMelMelMelMelMel
