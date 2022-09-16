@@ -8,6 +8,4 @@ fun simpleMultiplication(n:Int): Int{
     } else {
         return n * 9
     }
-
-
 }
