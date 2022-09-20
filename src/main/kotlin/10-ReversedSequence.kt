@@ -1,3 +1,7 @@
+//DESCRIPTION:
+//Build a function that returns an array of integers from n to 1 where n>0.
+//
+//Example : n=5 --> [5,4,3,2,1]
 
 fun main(){
     println(reverseSeq(5))
@@ -11,16 +15,4 @@ fun reverseSeq(n: Int): List<Int> {
     }
     return sequencia
 }
-
-
-// consegui o resultado esperado dessa forma, mas não consegui reodar no codewars
-
-// estava dando erro pq o tipo de retorno é List<Int> e eu achava que tinha que ser MutableList<Int>
-
-/*fun reverseSeq(n: Int): MutableList<Int> {
-    val sequencia: MutableList<Int> = mutableListOf()
-        for (i in n downTo 1 step 1){
-            sequencia.add(i)
-        }
-        return sequencia
-}*/
+// [5, 4, 3, 2, 1]

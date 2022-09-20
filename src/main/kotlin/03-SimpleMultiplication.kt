@@ -1,3 +1,6 @@
+//DESCRIPTION:
+//This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+
 fun main (){
     println(simpleMultiplication(5))
 }
@@ -9,3 +12,5 @@ fun simpleMultiplication(n:Int): Int{
         return n * 9
     }
 }
+
+// 45

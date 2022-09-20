@@ -1,4 +1,3 @@
-
 /*DESCRIPTION:
 Clock shows h hours, m minutes and s seconds after midnight.
 
@@ -26,7 +25,7 @@ fun horarioEmMs(h: Int, m: Int, s: Int): Int{
 
 // result= 3601000
 
-obs.:
+//obs.:
 // 1 h = 3,6e+6 ou 3600000 milissegundos
 // 1 min = 60000 milissegundos
 // 1 segundo = 1000 milissegundos

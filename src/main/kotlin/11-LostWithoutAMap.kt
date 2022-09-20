@@ -1,4 +1,9 @@
-
+//DESCRIPTION:
+//Given an array of integers, return a new array with each value doubled.
+//
+//For example:
+//
+//[1, 2, 3] --> [2, 4, 6]
 fun main(){
     // dificuldade aqui, ter que guardar em várias variáveis até conseguir enxergar o resultado final
 
@@ -14,3 +19,4 @@ fun maps(x: IntArray): IntArray{
     }
     return x
 }
+// [2, 4, 6]
