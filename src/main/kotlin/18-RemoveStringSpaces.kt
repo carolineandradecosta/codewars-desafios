@@ -18,4 +18,7 @@ fun removeStringSpaces(string: String): String{
     return string.filterNot { it.isWhitespace() }
 }
 
-//return string.replace("\\s".toRegex(), "")
+// outra alternativa
+//fun removeStringSpaces(string: String): String{
+//    return string.replace("\\s".toRegex(), "")
+//}
